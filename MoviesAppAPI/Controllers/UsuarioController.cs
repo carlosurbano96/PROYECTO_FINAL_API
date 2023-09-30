@@ -21,6 +21,7 @@ namespace MoviesAppAPI.Controllers
         
         public List<Usuario> GetUsuarios()
         {
+            //competario
             Login neg = new Login(_configuration);
             return neg.GetUsers();
         }
